@@ -12,19 +12,19 @@ The `jstree-rails-4` gem integrates the `jsTree` jQuery plugin with the Rails as
 
 Add `jstree-rails-4` to your Gemfile and run `bundle install`:
 
-  gem "jstree-rails-4"
+  `gem "jstree-rails-4"`
 
 ### Include jstree-rails-4 javascript assets
 
 Add the following to your `app/assets/javascripts/application.js`:
 
-  //= require jstree
+  `//= require jstree`
 
 ### Include jstree-rails-4 stylesheet assets
 
 Add to your `app/assets/stylesheets/application.css`:
 
-  *= require jstree
+  `*= require jstree`
 
 ## Contributions
 
