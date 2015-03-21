@@ -4,7 +4,8 @@
 
 The `jstree-rails-4` gem integrates the `jsTree` jQuery plugin with the Rails asset pipeline.
 
-<!--[![Gem Version](https://badge.fury.io/rb/jstree-rails-4.png)](http://badge.fury.io/rb/jstree-rails-4)-->
+GemVersion: 1.0.0
+jsTree Version: 3.0.9
 
 ## Usage
 
@@ -24,7 +25,10 @@ Add the following to your `app/assets/javascripts/application.js`:
 
 Add to your `app/assets/stylesheets/application.css`:
 
-  `*= require jstree`
+  `*= require jstree-default`  <--- TO USE DEFAULT THEME
+OR
+
+  `*= require jstree-default-dark`  <--- TO USE DEFAULT DARK THEME
 
 ## Contributions
 
