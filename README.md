@@ -36,4 +36,4 @@ If you want to contribute, please:
 
 ## License
 
-Selec2-Rails is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+jsTree-Rails-4 is released under the [MIT License](http://www.opensource.org/licenses/MIT).
