@@ -4,9 +4,9 @@
 
 The `jstree-rails-4` gem integrates the `jsTree` jQuery plugin with the Rails asset pipeline.
 
-GemVersion: 1.0.0
+GemVersion: 3.1.1
 
-jsTree Version: 3.0.9
+jsTree Version: 3.1.1
 
 ## Usage
 
