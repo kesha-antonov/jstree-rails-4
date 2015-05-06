@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = JSTree::Rails::VERSION
   s.authors     = ["Kesha Antonov"]
   s.email       = ["innokenty.longway@gmail.com"]
-  s.homepage    = "https://github.com/argerim/jstree-rails-4"
+  s.homepage    = "https://github.com/kesha-antonov/jstree-rails-4"
   s.summary     = %q{Integrate jsTree javascript library with Rails asset pipeline}
   s.description = %q{jsTree is jquery plugin, that provides interactive trees. It is absolutely free, open source and distributed under the MIT license.}
   s.license     = 'MIT'
