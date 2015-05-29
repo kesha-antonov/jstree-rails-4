@@ -30,6 +30,12 @@ Add to your `app/assets/stylesheets/application.css`:
 
   `*= require jstree-default-dark`  <--- TO USE DEFAULT DARK THEME
 
+### Precompile additional assets
+
+Add the images to your `config/initializers/assets.rb`:
+
+  `Rails.application.config.assets.precompile += %w( *.png *.gif )`
+
 ## Contributions
 
 If you want to contribute, please:
