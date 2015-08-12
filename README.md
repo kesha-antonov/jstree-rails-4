@@ -38,6 +38,15 @@ If you want to contribute, please:
   * Make your feature addition or bug fix.
   * Send me a pull request on Github.
 
+## How to pull new version of jsTree yourself
+
+Use command line:
+
+  * bundle install
+  * ruby -r './lib/jstree-rails-4/source_file.rb' -e 'SourceFile.new.fetch'
+  * Choose version and enter 'Y' on each request
+
 ## License
 
 jsTree-Rails-4 is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+
