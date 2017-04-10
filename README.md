@@ -4,9 +4,9 @@
 
 The `jstree-rails-4` gem integrates the `jsTree` jQuery plugin with the Rails asset pipeline.
 
-GemVersion: 3.3.3
+GemVersion: 3.3.4
 
-jsTree Version: 3.3.3
+jsTree Version: 3.3.4
 
 ## Usage
 
@@ -45,7 +45,8 @@ Use command line:
   * bundle install
   * ruby -r './lib/jstree-rails-4/source_file.rb' -e 'SourceFile.new.fetch'
   * Choose version and enter 'Y' on each request
+  * ruby -r './lib/jstree-rails-4/source_file.rb' -e 'SourceFile.new.convert'
 
 ## License
 
-jsTree-Rails-4 is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+jsTree-Rails-4 is [free and unencumbered software released into the public domain](http://unlicense.org).
