@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jstree-rails-4 (3.3.8)
+    jstree-rails-4 (3.3.9)
 
 GEM
   remote: http://rubygems.org/
@@ -21,4 +21,4 @@ DEPENDENCIES
   thor (~> 0.19)
 
 BUNDLED WITH
-   1.16.3
+   1.17.2
