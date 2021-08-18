@@ -7,7 +7,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     httpclient (2.8.3)
-    json (2.0.3)
+    json (2.5.1)
     thor (0.19.1)
 
 PLATFORMS
@@ -16,7 +16,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.14)
   httpclient (~> 2.8.3)
-  json (~> 2.0.3)
+  json (~> 2.5.1)
   jstree-rails-4!
   thor (~> 0.19)
 
