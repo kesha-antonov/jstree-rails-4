@@ -29,8 +29,8 @@ class SourceFile < Thor
   def convert
     self.destination_root = 'vendor/assets'
     inside destination_root do
-      gsub_file 'stylesheets/jstree-default.scss', %r/url\((?:\"|\')([^\)]+\.(?:gif|png))(?:\"|\')\)/, 'image-url("default/\1")'
-      gsub_file 'stylesheets/jstree-default-dark.scss', %r/url\((?:\"|\')([^\)]+\.(?:gif|png))(?:\"|\')\)/, 'image-url("default-dark/\1")'
+      gsub_file 'stylesheets/jstree-default.scss', %r/url\((?:\"|\')([^\)]+\.(?:gif|png))(?:\"|\')\)/, 'url("default/\1")'
+      gsub_file 'stylesheets/jstree-default-dark.scss', %r/url\((?:\"|\')([^\)]+\.(?:gif|png))(?:\"|\')\)/, 'url("default-dark/\1")'
     end
   end
 
