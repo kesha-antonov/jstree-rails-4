@@ -70,6 +70,10 @@ ruby -r './lib/jstree-rails-4/source_file.rb' -e 'SourceFile.new.fetch'
 ruby -r './lib/jstree-rails-4/source_file.rb' -e 'SourceFile.new.convert'
 ```
 
-## 📄 License
+## � Sponsorship
+
+This project is maintained in my free time. If you find it helpful, please consider [becoming a sponsor](https://github.com/sponsors/kesha-antonov).
+
+## �📄 License
 
 [MIT](./LICENSE)
